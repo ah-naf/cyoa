@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dark Crime Thriller Demo</title>
+    <!-- Using Google Fonts for a modern, stylish look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background: linear-gradient(135deg, #1a1a1a 0%, #3a3a3a 100%);
+        color: #ccc;
+        margin: 0;
+        padding: 0;
+      }
+
+      #app {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background: rgba(31, 31, 31, 0.8);
+        backdrop-filter: blur(6px);
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      }
+
+      h1 {
+        color: #f05d5e;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      h2 {
+        margin-top: 0;
+        color: #f1c40f;
+        letter-spacing: 0.5px;
+        margin-bottom: 1rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+      }
+
+      .story-content {
+        margin-bottom: 2rem;
+      }
+
+      .story-content p {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+
+      .options-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .options-list li {
+        margin: 0 0.5rem;
+        flex: 1;
+      }
+
+      .options-list li a,
+      .options-list li button {
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+        background: #e74c3c;
+        padding: 0.6rem 1.2rem;
+        text-decoration: none;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 0 #c0392b;
+      }
+
+      .options-list li a:hover,
+      .options-list li button:hover {
+        background: #c0392b;
+        box-shadow: 0 2px 0 #a7281c;
+        transform: translateY(2px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Dark Crime Thriller Demo</h1>
+
+      <div id="story-content" class="story-content">
+        <!-- Arc Title -->
+        <h2 id="arc-title">The Introduction</h2>
+        <!-- Paragraphs / story text -->
+        <div id="arc-story">
+          <p>
+            Late one evening, you discover a black envelope left at your door. A
+            cryptic note hints at a danger lurking in the shadows of your city.
+          </p>
+          <p>
+            Uncertain what it means, you decide to investigate further, never
+            expecting the darkness you’re about to uncover. Will you heed the
+            warning, or forge ahead into the unknown?
+          </p>
+        </div>
+      </div>
+
+      <ul id="options-list" class="options-list">
+        <li>
+          <a href="#">Call the Police</a>
+        </li>
+        <li>
+          <a href="#">Investigate Alone</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

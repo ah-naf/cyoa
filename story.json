@@ -1,0 +1,229 @@
+{
+  "intro": {
+    "title": "The Nocturnal Envelope",
+    "story": [
+      "Late one evening in Chattogram, you—$user—find a small, black envelope slipped under your apartment door. The paper is cold and slightly damp, as if it's been carried through fog-shrouded streets. Inside, a single photograph shows the outline of a decrepit house in the middle of an abandoned district. On the back of the photograph, scribbled in a jagged scrawl, are the words, “Find the truth before it finds you.”",
+      "Sleep doesn’t come easily after such a discovery. A subtle dread creeps into your bones, and thoughts of who could have placed the envelope here refuse to let you rest. For the past six months, Chattogram has been reeling from a series of gruesome murders. Each victim had received cryptic warnings beforehand—clues that never made sense until it was too late. Could this envelope be one of those warnings?",
+      "You recall unsettling headlines from the Daily Chattogram Gazette: bodies found in locked rooms, cryptic messages etched into windows, and the police forced to chase ghosts. Witnesses speak of shadowy figures lurking in alleyways, rumors of occult symbols in the basements of abandoned buildings. Chattogram’s heart feels infected with fear. You can’t help but wonder if this single black envelope just dragged you into the middle of it all.",
+      "A deeper question nags at you: should you contact the police and risk being pulled into a massive investigation, or handle this yourself, trusting your own instincts? There’s something about the mention of 'the truth' that feels personal. Could it be tied to the secrets you, $user, have been harboring all these years?"
+    ],
+    "options": [
+      {
+        "text": "Contact the police immediately. This is bigger than you.",
+        "arc": "call-police"
+      },
+      {
+        "text": "Investigate the photo on your own. Something about this is too personal.",
+        "arc": "solo-investigation"
+      }
+    ]
+  },
+  "call-police": {
+    "title": "Entangled With Law Enforcement",
+    "story": [
+      "Dialing the precinct’s number leaves you—$user—with a trembling hand. When Detective Eva Sandford answers, there’s a tension in her voice, as though she half-expects bad news from every call she gets. You carefully explain the black envelope and the photograph. She sighs, exasperated yet intrigued, and instructs you to come down to the station in central Chattogram.",
+      "When you arrive, every officer glances at you as though you’re carrying a deadly virus. A few of them exchange hushed words. The police station’s fluorescent lights flicker against grimy tiles, amplifying the sense of unease. Detective Sandford emerges from a back room, her face stern, her lips tight. She looks at the photograph, the scribbled message, and you can see her mind churning. 'We’ve received six of these in connection with the recent murders,' she mutters. 'One for each victim. This is the first time the sender has used a photograph of a location rather than a cryptic riddle... but the handwriting is the same.'",
+      "Before she can ask you more questions, pandemonium erupts at the far end of the station. Another envelope has arrived. Inside it, a photo of the same house from a different angle—this time showing a silhouette at one of the boarded-up windows. The note reads: 'He still hides in plain sight.' Detective Sandford’s eyes dart to you, her suspicion intensifying. You notice the dryness in your own mouth, realizing that simply by receiving the envelope, you’re now at the center of something far more ominous than you imagined."
+    ],
+    "options": [
+      {
+        "text": "Offer to help the detective solve the riddle about the house.",
+        "arc": "partnership"
+      },
+      {
+        "text": "Step away. This is getting too intense. You only wanted to report it, not become a suspect.",
+        "arc": "isolation"
+      }
+    ]
+  },
+  "solo-investigation": {
+    "title": "A Shadowed Beginning",
+    "story": [
+      "Your heart pounds as you drive toward the old district of Chattogram. The closer you get, the more the bustling streets fade into abandoned warehouses and closed-down factories. Streetlights flicker sporadically, and broken glass crunches under your tires. You pass graffiti that seems to beckon you forward, warning you in cryptic symbols of the darkness ahead.",
+      "The photograph’s decrepit house is easy to find. Its silhouette stands out like a rotting tooth among deserted plots. The front door is nailed shut with weather-beaten boards, each hammered in place as though to keep something—or someone—inside. A sense of unease gnaws at your gut, but your curiosity burns brighter. You feel drawn to the house the same way a moth is drawn to a flame.",
+      "You circle around back, noticing a small opening near a shattered window frame. Just as you’re about to slip inside, the sound of a distant siren makes you freeze. Are the Chattogram police onto you, or is that noise just an echo in this forgotten corner of the city? You push forward anyway, flashlight in hand, preparing to confront whatever secrets this place may hold. There’s a silent dare in the air, an unspoken challenge from whoever sent you that envelope."
+    ],
+    "options": [
+      {
+        "text": "Enter the house through the broken window. Face the unknown alone.",
+        "arc": "house-exploration"
+      },
+      {
+        "text": "Decide this is too risky; maybe informing the police is smarter.",
+        "arc": "reconsider-police"
+      }
+    ]
+  },
+  "partnership": {
+    "title": "Uneasy Allies",
+    "story": [
+      "Detective Sandford ushers you—$user—into a cramped interrogation room, warning you, 'This isn’t normal protocol. But I believe your life might be at risk, and you might also be our best lead.' She’s uncomfortably honest. You appreciate the candor, though it also sends a chill down your spine. The overhead lamp buzzes, casting harsh shadows on the peeling wallpaper.",
+      "Hours pass as you comb through old files of murdered victims, each receiving eerie messages beforehand. The detective shows you sketches of crime scenes, transcripts of interviews, and autopsy reports that would curdle anyone’s blood. Beneath each case file is a familiar black envelope containing cryptic hints. The question remains: who’s sending these ominous warnings, and why do they always arrive too late?",
+      "Suddenly, the lights flicker. An officer storms into the room, face pale. 'There’s been another murder,' he announces. The location? The very house in the photograph. A swirl of panic and adrenaline surges through your veins as you realize the killer might be one step ahead, playing you like a pawn in a deadly game. Detective Sandford rubs her temples, a haunted look in her eyes, as though she’s seen this pattern before."
+    ],
+    "options": [
+      {
+        "text": "Follow Detective Sandford to the crime scene immediately.",
+        "arc": "crime-scene"
+      },
+      {
+        "text": "Stay at the station to dig deeper into the case files, looking for overlooked details.",
+        "arc": "digging-deeper"
+      }
+    ]
+  },
+  "isolation": {
+    "title": "Retreat into Darkness",
+    "story": [
+      "Your heart races as you walk away from Detective Sandford, the photograph still clutched in your hand. You never intended to become entwined in a murder investigation; you only sought protection or advice. The last thing you see is the detective’s face, etched with worry—and perhaps disappointment.",
+      "You arrive home in Chattogram, but the sense of safety you long for never materializes. Each passing minute sets your nerves on edge. Every shadow in your apartment seems suspicious. You board up windows, lock every door, even slide a chair beneath the doorknob. Deep down, you know your efforts are futile against the nightmares creeping through the city’s underbelly.",
+      "Late in the night, a strange scratching noise comes from the hallway. You tiptoe to the front door to peer through the peephole. In the distorted fisheye view, you see a small, black envelope pinned under your door again. The message this time is more direct: 'Hiding won’t save you.'",
+      "Your chest tightens. You can almost feel a pair of eyes watching you from the darkness, savoring your fear. You realize that stepping away has only painted a larger target on your back. The dull hum of a distant generator outside does little to soothe your nerves. You can hear your heartbeat in your ears, wondering if you’ll ever know peace again."
+    ],
+    "options": [
+      {
+        "text": "In a panic, you decide to leave Chattogram. Pack your bags and run.",
+        "arc": "flee-city"
+      },
+      {
+        "text": "Enough is enough. You grab your coat and decide to face the house in the photograph alone.",
+        "arc": "house-exploration"
+      }
+    ]
+  },
+  "reconsider-police": {
+    "title": "Anxious Second Thoughts",
+    "story": [
+      "Apprehension coils in your stomach, and you decide that this investigation is no place for amateurs. Armed with the photograph and the scribbled threat, you hurry to the local police station in Chattogram. It’s past midnight, and the fluorescent lights in the reception area cast stark shadows, heightening your sense of foreboding.",
+      "After an uneasy wait, a young officer listens to your hurried explanation. He takes the envelope and photograph, eyeing them with a mixture of curiosity and dread. 'We’ve seen these envelopes before,' he says quietly, glancing over his shoulder. 'You might want to speak with Detective Sandford.'",
+      "By the time you’re led to her office, your pulse is pounding. She looks up, sees the black envelope, and motions you inside. The harsh lines of her face soften just enough to let you see she’s been carrying the weight of this case for too long. You can’t shake the feeling that you’re stepping into a labyrinth, each corridor leading further away from safety."
+    ],
+    "options": [
+      {
+        "text": "Share everything with Detective Sandford. Cooperate fully.",
+        "arc": "partnership"
+      },
+      {
+        "text": "Hold back some details. You don’t completely trust the police yet.",
+        "arc": "digging-deeper"
+      }
+    ]
+  },
+  "house-exploration": {
+    "title": "Secrets in the Shadows",
+    "story": [
+      "Broken glass crunches under your shoes as you—$user—slip through the shattered window. Dust swirls in the beam of your flashlight, forming ghostly shapes that drift along the damp, stale air. The stench of decay hits you like a punch, and you fight the urge to gag. The main hallway is cluttered with debris—toppled furniture, torn wallpaper, and rat droppings. The silence is so thick you can hear your pulse thumping in your temples.",
+      "A single door at the end of the corridor is slightly ajar, revealing flickering light within. Your heart pounds as you inch closer, your mind racing with every horrifying possibility. When you push the door open, you discover a room illuminated by candle stubs on the floor. Symbols, letters, and newspaper clippings plaster the walls. The images are of the murder victims—locals from Chattogram. Their eyes have been scratched out.",
+      "In the corner, a small wooden box sits on a crude altar. The top is carved with the same symbol repeated across the walls—an overlapping circle and triangle, a glyph of uncertain origin. A sense of dread washes over you: you’re at the heart of something far more sinister than you imagined. Whispers seem to emanate from every shadow, as though the darkness itself is alive. The question is, do you dare open that box?"
+    ],
+    "options": [
+      {
+        "text": "Open the box, no matter the horror inside.",
+        "arc": "twisted-reveal"
+      },
+      {
+        "text": "Flee the house with the evidence you’ve seen. Show it to the authorities.",
+        "arc": "reconsider-police"
+      }
+    ]
+  },
+  "crime-scene": {
+    "title": "Edge of the Abyss",
+    "story": [
+      "Flashing red and blue lights reflect off the crumbling facade of the decrepit house in the abandoned district of Chattogram. You and Detective Sandford step over yellow crime scene tape, the pungent smell of stale blood greeting you at the threshold. Forensics teams bustle around, snapping photos and dusting for prints. The floorboards groan underfoot, as though protesting the violation of their secrets.",
+      "Lying near the fireplace is a victim, half-covered by a tattered sheet. The detective’s usually steely composure falters for a moment when she sees the brutality. But something else catches her eye—a black envelope pinned to the victim’s clothing. This time the message reads: 'Tick tock, detective. Your partner awaits.'",
+      "Sandford’s jaw tightens as she shows you the envelope. 'Partner? I work alone,' she mutters, her voice unsteady. You exchange a tense glance, both realizing the note could be referring to you—$user. Or perhaps someone else entirely, someone buried in her past. The sense of an unseen puppet master controlling everything makes your skin crawl. Outside, an unseasonal chill descends, as if Chattogram itself is mourning another life lost.",
+      "Before you can gather your thoughts, an evidence technician pulls you aside. There’s a strange symbol scrawled in ash on the hearth—an odd circle intertwined with a triangle. It matches the glyph in your photograph’s margins. Sandford stiffens when she sees it, as though it dredges up a memory she’d hoped to forget."
+    ],
+    "options": [
+      {
+        "text": "Press Sandford about the meaning of 'partner.' She’s hiding something.",
+        "arc": "digging-deeper"
+      },
+      {
+        "text": "Insist you search the house for more clues. The murderer might still be near.",
+        "arc": "house-exploration"
+      }
+    ]
+  },
+  "digging-deeper": {
+    "title": "Buried Motives",
+    "story": [
+      "You spend the night sifting through old newspaper archives, personal records, and internal police documents, either with or without Detective Sandford’s approval—depending on your earlier choice. The deeper you dig, the more a pattern emerges. Coffee cups and cigarette butts litter your makeshift workspace as the late hours wear on.",
+      "Years ago, a string of disappearances took place in this same district of Chattogram. All involved the same suspect, a man known only by the moniker “The Night Surgeon,” rumored to practice bizarre rituals. The details were hushed up, but there was a constant name popping up in the old files: Detective Eva Sandford, then just a rookie cop. She worked that case and inexplicably dropped it before it was closed. The newspapers at the time hinted at corruption, suppressed evidence, and a detective gone missing under mysterious circumstances.",
+      "Page after page, you begin to suspect that Sandford has personal reasons for burying the old case. Could the current killer be connected to these long-forgotten crimes? Or is she, in some twisted way, orchestrating them to cover her own tracks? Your mind reels with possibilities as the truth becomes more elusive. In the margins of one old file, you see a handwritten note about 'ritualistic cleansing'—the same glyph you saw at the crime scene. Shivers course through you, uncertain whether you’re seeing the killer’s obsession or Sandford’s."
+    ],
+    "options": [
+      {
+        "text": "Confront Sandford with the evidence. Demand answers.",
+        "arc": "twisted-reveal"
+      },
+      {
+        "text": "Keep your suspicions secret and try to lure out the killer yourself.",
+        "arc": "house-exploration"
+      }
+    ]
+  },
+  "flee-city": {
+    "title": "Escape Into the Night",
+    "story": [
+      "Unable to bear the suffocating terror that’s taken hold of your life in Chattogram, you throw a few belongings into a suitcase and drive out of the city under the cover of darkness. The roads stretch on, weaving through desolate suburbs and unlit highways. Street signs become sparser until you’re navigating by instinct more than direction.",
+      "After hours of driving, paranoia sets in. Every pair of headlights in your rearview mirror seems like it could be the killer stalking you. You turn onto rural back roads, eventually renting a room in a tired motel. A storm rages outside, wind howling, thunder shaking the flimsy windows. You can’t help but sense the malevolence in every gust of wind, every flicker of lightning.",
+      "You collapse onto the bed, the neon motel sign casting ghostly glows across the walls. But before you can even begin to calm down, a single sheet of paper slides under your door. It’s a black-and-white print of the same decrepit house. Someone has tracked you here, and there’s no escaping it. The storm outside crescendos, almost mocking your attempt to flee. You realize that whatever darkness you’re running from is always a step ahead."
+    ],
+    "options": [
+      {
+        "text": "Realize you must face this. Return to the house in Chattogram to end it once and for all.",
+        "arc": "house-exploration"
+      }
+    ]
+  },
+  "twisted-reveal": {
+    "title": "The Final Puzzle",
+    "story": [
+      "You brace yourself and lift the lid of the wooden box—or corner Detective Sandford in her office in Chattogram, brandishing your suspicions. Either way, a final revelation awaits: inside the box, or within Sandford’s confessions, you discover an old detective badge. The nameplate reads “D. Sandford.” But it’s not Eva Sandford’s name—it’s her father’s, a renowned detective gone missing decades ago.",
+      "In an instant, the puzzle clicks into place. Eva Sandford is the daughter of the original lead detective on the 'Night Surgeon' case. Driven by guilt and the unsolved mystery surrounding her father’s disappearance, she’s been secretly orchestrating a twisted plan to lure the real killer out of hiding. Each black envelope, each cryptic clue, was engineered to draw attention back to the case. But this time, events have spiraled out of her control.",
+      "As the truth surfaces, footsteps echo behind you. A figure emerges—a gaunt man with hollow eyes, the infamous 'Night Surgeon' himself. He was never caught. He’s been watching, waiting for the day someone would resurrect his old crimes. In a chilling voice, he confesses to targeting every person who poked at the cold case, leaving the black envelopes as warnings and dares. A fiendish grin spreads across his face as he raises a gleaming blade. The final confrontation has arrived.",
+      "In that moment, your senses sharpen. The odor of mold and copper from the dried blood in the corners or the smoky tang of the neglected files in Sandford’s office hits you. Your pulse beats in your ears. Every detail clarifies, crystallized by adrenaline. You know one thing: you, $user, can’t run, not anymore."
+    ],
+    "options": [
+      {
+        "text": "Fight back. You’ve come too far to die now.",
+        "arc": "final-showdown"
+      },
+      {
+        "text": "Attempt to negotiate, stalling him until the authorities arrive.",
+        "arc": "final-showdown"
+      }
+    ]
+  },
+  "final-showdown": {
+    "title": "End of the Nightmare",
+    "story": [
+      "The struggle is brutal and desperate. Broken glass, scattered papers, and overturned furniture mark your path as you try to outmaneuver the 'Night Surgeon.' Detective Sandford—racked with shame yet determined—throws herself into the fray, brandishing her sidearm.",
+      "A single gunshot rings out in the darkness. The 'Night Surgeon' collapses, eyes wide with surprise. His reign of terror ends not with a triumphant boast, but with a sudden gasp. In the aftermath, you and Sandford stand amid the wreckage, breaths ragged. Silence settles, broken only by the dripping of a leaky pipe in the corner. Even the wind outside seems to hold its breath, as if all of Chattogram is stunned into quiet relief.",
+      "In the flickering light, Detective Sandford trembles. 'I never wanted anyone else to die,' she whispers. 'I thought… if I could recreate the circumstances of the old case, I could make him slip up. I never expected you, $user, to find the envelope. Or for him to escalate this quickly.' She hands you her father’s detective badge, tears brimming. 'I’m sorry. But thank you… for saving both of us.'",
+      "Amid the chaos, you notice a dusty table with a half-burned candle on it, black wax dripping onto a stack of old newspapers. The top newspaper’s date is from decades ago—yet the headline reads almost exactly like last week’s. It’s as if time has looped, repeating the same horror. You realize this nightmare could have continued indefinitely if not for this final confrontation."
+    ],
+    "options": [
+      {
+        "text": "Accept the badge. Leave Chattogram, ready to put the horrors behind you.",
+        "arc": "conclusion"
+      },
+      {
+        "text": "Offer to help Sandford rebuild trust and close the case officially.",
+        "arc": "conclusion"
+      }
+    ]
+  },
+  "conclusion": {
+    "title": "Shadows at Dawn",
+    "story": [
+      "The sun rises over the decaying district of Chattogram, illuminating the battered old house. Police lights fade away as the crime scene clears. The dark chapter of murders and cryptic envelopes has finally reached a bitter conclusion. Yet, Chattogram feels changed, tainted by the revelations of the past.",
+      "Detective Eva Sandford makes her official statement about the 'Night Surgeon,' the disappeared detective father, and her misguided attempts to draw the killer out of hiding. Though she faces disciplinary action, many note her courage in bringing the murderer to justice. You, $user, also become a footnote in the stories whispered on city streets—a survivor, a reluctant hero, or perhaps just someone who stumbled into the darkness and managed to come out alive.",
+      "As you walk away, the weight of the truth settles on your shoulders. The black envelope—once a harbinger of doom—remains tucked in your jacket pocket, a reminder that secrets never truly stay buried. Chattogram feels a little colder, a little less safe, but the dawn breaks nonetheless, offering a promise of new beginnings amid the ashes of a haunted past. You feel both liberated and haunted, knowing that while one story has ended, untold shadows may still lurk in the alleyways, waiting for someone else to come searching.",
+      "Beyond the threshold of Chattogram, the horizon glows with the first light of morning. In the crisp air, you can almost taste renewal. But every once in a while, you might catch a glimpse of a flicker in the corner of your eye, as if the 'Night Surgeon’s' shadow still lingers—an echo reminding you that evil, once awakened, never fully sleeps."
+    ],
+    "options": []
+  }
+}

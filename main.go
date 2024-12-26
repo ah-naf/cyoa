@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"html/template"
 	"log"
+	"net/http"
 	"os"
 )
 
@@ -45,5 +46,22 @@ func loadStory() {
 
 func main() {
 	loadStory()
-	fmt.Println(story)
+
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		path := ""
+		if r.URL.Path == "/" {
+			path = "/intro"
+		} else {
+			path = r.URL.Path[1:]
+			fmt.Println(path)
+			if v, ok := story[path]; ok {
+				tpl.Execute(w, v)
+			} else {
+				http.NotFound(w, r)
+			}
+		}
+	})
+
+	fmt.Println("Server listening on port 3000")
+	http.ListenAndServe(":3000", nil)
 }

@@ -27,13 +27,14 @@
       }
 
       #app {
-        max-width: 600px;
+        max-width: 800px;
         margin: 50px auto;
         padding: 20px;
         background: rgba(31, 31, 31, 0.8);
         backdrop-filter: blur(6px);
         border-radius: 12px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        height: 100%;
       }
 
       h1 {
@@ -106,28 +107,21 @@
 
       <div id="story-content" class="story-content">
         <!-- Arc Title -->
-        <h2 id="arc-title">The Introduction</h2>
+        <h2 id="arc-title">{{.Title}}</h2>
         <!-- Paragraphs / story text -->
         <div id="arc-story">
-          <p>
-            Late one evening, you discover a black envelope left at your door. A
-            cryptic note hints at a danger lurking in the shadows of your city.
-          </p>
-          <p>
-            Uncertain what it means, you decide to investigate further, never
-            expecting the darkness you’re about to uncover. Will you heed the
-            warning, or forge ahead into the unknown?
-          </p>
+          {{range .Story}}
+          <p>{{.}}</p>
+          {{end}}
         </div>
       </div>
 
       <ul id="options-list" class="options-list">
+        {{range .Options}}
         <li>
-          <a href="#">Call the Police</a>
+          <a href="/{{.Arc}}">{{.Text}}</a>
         </li>
-        <li>
-          <a href="#">Investigate Alone</a>
-        </li>
+        {{end}}
       </ul>
     </div>
   </body>
